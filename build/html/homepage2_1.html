@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/build/css/base.css">
+  <link rel="stylesheet" href="/build/css/fragments/homepage2.css">
+  <link rel="icon" type="image/x-icon" href="/plugin/images/images2/icons/logo.svg">
+  <title>K O L</title>
+</head>
+
+<html>
+<body>
+  <!-- scroll-->
+ <div id="btn_scroll"><img id="btn_scroll-value" src="/plugin/images/images2/icons/btn_top.svg" alt=""></div>
+<!-- modal menu-->
+<div class="showMenu" id="showMenu" style="display: none;">
+  <div class="btn_close"><img class="btn_close" id="pointer" src="/plugin/images/images2/icons/btn_close.svg" alt=""></div>
+  <ul><a href="#">
+      <li>
+        <h6 class="h6">01</h6>
+        <p>_HOME</p>
+      </li></a><a href="#more">
+      <li>
+        <h6>02</h6>
+        <p>_MORE PAGE</p>
+      </li></a><a href="#product">
+      <li>
+        <h6>03</h6>
+        <p>_PRODUCT PAGE</p>
+      </li></a><a href="#project">
+      <li>
+        <h6>04</h6>
+        <p>_PROJECT PAGE</p>
+      </li></a><a href="#ft">
+      <li>
+        <h6>05</h6>
+        <p>_FOOTER PAGE</p>
+      </li></a></ul>
+  <div class="contact_homepage"><a href=""><img src="/plugin/images/images2/icons/Insta.svg" alt=""></a><a href=""><img src="/plugin/images/images2/icons/Fb.svg" alt=""></a><a href=""><img src="/plugin/images/images2/icons/Twiter.svg" alt=""></a><a href=""><img src="/plugin/images/images2/icons/Pintrest.svg" alt=""></a></div>
+</div>
+
+<!-- sign in / sign up -->
+<div class="form_user"  style="display: none;" >
+  <div class="container" id="container">
+    <div class="btn_close_form"><img class="btn_close_form" id="pointer" src="/plugin/images/images2/icons/btn_close.svg" alt=""></div>
+     <!-- Sign in -->
+    <div class="form-container sign-in-container">
+      <form action="#" class="form-group"  id="form-2">
+          <h1>Sign in</h1>
+          <div class="social-container">
+            <a href="#" class="social">
+              <img src="/plugin/images/images2/icons/icon_fb.png" alt="">
+            </a>
+            <a href="#" class="social">
+              <img src="/plugin/images/images2/icons/icon_gg.png" alt="">
+            </a>
+            <a href="#" class="social">
+              <img src="/plugin/images/images2/icons/icon_insta.png" alt="">
+            </a>
+          </div>
+          <span>or use your account</span>
+
+          <div class="form-group">
+            <input id="email" type="email" placeholder="Email" />
+            <span class="form-message"></span>
+          </div>
+                      
+          <div class="form-group">
+            <input id="password" type="password" placeholder="Password" />
+            <span class="form-message"></span>
+          </div>
+
+          <a href="#">Forgot your password?</a>
+          <div class="button_user">
+            <button id="btn_formSignIn">Sign In</button>
+          </div>
+      </form>
+  </div>
+  <!-- Sign up -->
+    <div class="form-container sign-up-container">  
+        <form action="#"  class="form-group" id="form-1">
+            <h1>Create Account</h1>
+            <div class="social-container">
+                <a href="#" class="social">
+                  <img src="/plugin/images/images2/icons/icon_fb.png" alt="">
+                </a>
+                <a href="#" class="social">
+                  <img src="/plugin/images/images2/icons/icon_gg.png" alt="">
+                </a>
+                <a href="#" class="social">
+                  <img src="/plugin/images/images2/icons/icon_insta.png" alt="">
+                </a>
+            </div>
+            <span>or use your email for registration</span>
+            <div class="form-group">
+              <input id="fullname_signUp" type="text" placeholder="Name"/>
+              <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+              <input id="email_signUp" type="email" placeholder="Email" />
+              <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+              <input id="password_signUp" type="password" placeholder="Password" />
+              <span class="form-message"></span>
+            </div>
+            <button id="btn_formSignUp" >Sign Up</button>
+        </form>
+    </div>
+
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start journey with us</p>
+                <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- homepage -->
+<div class="homepage" id="bgr_home">
+  <div class="nav">
+    <div class="menu">
+      <a class="btn_menu" id="btn_menu" href="">
+        <img class="btn_menu" id="btn_menu" src="/plugin/images/images2/icons/btn_menu.svg" alt="">
+      </a>
+    </div>
+      <img class="logo" src="/plugin/images/images2/icons/full_logo.svg" alt="">
+    <div class="contact_homepage">
+      <a id="contact" href=""><img src="/plugin/images/images2/icons/Insta.svg" alt=""></a>
+      <a id="contact" href=""><img src="/plugin/images/images2/icons/Fb.svg" alt=""></a>
+      <a id="contact" href=""><img src="/plugin/images/images2/icons/Twiter.svg" alt=""></a>
+      <a id="contact" href=""><img src="/plugin/images/images2/icons/Pintrest.svg" alt=""></a>
+      <a id="contact" class="User"  href="#">
+        <img src="/plugin/images/images2/icons/icon_admin.png" alt="" width="35px">
+       <!-- modal User -->
+        <div class="modal_User" style="display: none;">
+          <ul>
+            <li class="userName">
+              <img src="/plugin/images/images2/icons/icon chữ n.jpg" alt="">
+              <h4 id="update_userName">User Name</h4>
+            </li>
+            <li>
+              <img src="/plugin/images/images2/icons/information-button.png" alt="">
+              Xem thông tin cá nhân
+            </li>
+            <li>
+              <img src="/plugin/images/images2/icons/setting.png" alt="">
+              Cài Đặt
+            </li>
+            <li>
+              <img src="/plugin/images/images2/icons/opinion.png" alt="">
+              Đóng góp ý kiến
+            </li>
+            <li id="logOut">
+              <img src="/plugin/images/images2/icons/logout.png" alt="">
+              Đăng xuất
+            </li>
+          </ul>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="body_homepage">
+    <div class="content_body">
+      <div class="col-1">
+        <h5>01/05</h5>
+        <h6>BIZ NEWS</h6>
+      </div>
+      <div class="col-2">
+        <h2>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h2>
+        <p>
+          N&agrave;ng ca s&itilde; 9x ti&#x1EC1;m n&abreve;ng &ldquo;oanh t&#x1EA1;c&rdquo; v&#x1EDB;i hit 14 tri&#x1EC7;u view, ti&#x1EBF;p t&#x1EE5;c ch&agrave;o
+          s&acirc;n &dstrok;&#x1B0;&#x1EDD;ng &dstrok;ua &acirc;m nh&#x1EA1;c v&#x1EDB;i ca kh&uacute;c t&igrave;nh y&ecirc;u ng&#x1ECD;t c&#x1EF1;c b&#x1EAF;t tai.
+        </p>
+      </div>
+    </div>
+      <div class="slide_homepage">
+        <div class="slide_homeA">
+          <div class="slide1" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img2.jfif" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide2" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img1.png" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide3" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/img3.png" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide4" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img3_product.jfif" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide5" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img5pro.png" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>  
+        </div>
+
+        <div aria-hidden="true" class="slide_homeA">
+          <div class="slide1" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img2.jfif" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide2" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img1.png" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide3" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/img3.png" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide4" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img3_product.jfif" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+          <div class="slide5" id="pointer" onclick="changeBgr(this)">
+            <div class="img_slide"><img src="/plugin/images/images2/img5pro.png" alt=""></div>
+            <div class="content">
+              <h4>CH&#x1EE6; NH&Acirc;N HIT TRI&#x1EC6;U VIEW</h4>
+              <p>New hot</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- modal card -->
+<div class="modal_cards">
+  <div class="container_cards">
+    <div class="btn_close"><img class="btn_close" id="pointer" src="/plugin/images/images2/icons/btn_close.svg" alt=""></div>
+    <div class="col-img"><img src="/plugin/images/images2/img1.png" alt=""></div>
+    <div class="col-content">
+      <h4>Nguyen Thanh A</h4>
+      <ul>
+        <li>
+          The beauty of astronomy is that anybody can do it. From the tiniest baby
+          to the most advanced astrophysicist, there is something for anyone who
+          wants to enjoy astronomy.
+        </li>
+        <li>
+          The beauty of astronomy is that anybody can do it. From the tiniest baby
+          to the most advanced astrophysicist, there is something for anyone who
+          wants to enjoy astronomy.
+        </li>
+        <li>
+          The beauty of astronomy is that anybody can do it. From the tiniest baby
+          to the most advanced astrophysicist, there is something for anyone who
+          wants to enjoy astronomy.
+        </li>
+        <li>
+          The beauty of astronomy is that anybody can do it. From the tiniest baby
+          to the most advanced astrophysicist.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- morepage -->
+<div class="morepage" id="more">
+  <div class="nav_more">
+    <div class="menu_more"><img class="btn_menu" id="pointer" src="/plugin/images/images2/icons/btn_menu.svg" alt=""></div>
+    <div class="logo_more"><img src="/plugin/images/images2/icons/full_logo.svg" alt="" width="150px"></div>
+    <div class="contact_more"><a id="contact" href=""><img src="/plugin/images/images2/icons/Insta.svg" alt=""></a><a id="contact" href=""><img src="/plugin/images/images2/icons/Fb.svg" alt=""></a><a id="contact" href=""><img src="/plugin/images/images2/icons/Twiter.svg" alt=""></a><a id="contact" href=""><img src="/plugin/images/images2/icons/Pintrest.svg" alt=""></a></div>
+  </div>
+  <div class="body_more">
+    <div class="content_body">
+      <h1>NEW</h1>
+      <h2>HOT KOL</h2>
+      <div class="content-mo">
+        <div class="icon_content-mo"><img class="icon_content-mo" src="/plugin/images/icons/icon_content_more.svg" alt=""></div>
+        <div class="content">
+          The beauty of astronomy is that anybody can do it. From the tiniest baby
+          to the most advanced astrophysicist, there is something for anyone who
+          wants to enjoy astronomy.
+        </div>
+      </div>
+      <div class="btn_more" id="pointer">
+        <p>VIEW MORE</p><img id="pointer" src="/plugin/images/images2/icons/btn_Text_more.svg" alt="">
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card-top">
+        <div class="card1" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img1.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+        <div class="card2" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img_more.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+        <div class="card3" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img_more.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+        <div class="card4" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img_more.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-bottom">
+        <div class="card1" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img_more.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+        <div class="card2" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img_more.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+        <div class="card3" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img_more.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+        <div class="card4" id="btn_card">
+          <div class="img_card"><img src="/plugin/images/images2/img_more.png" alt=""></div>
+          <div class="content_card">
+            <h4>Nguyen Thanh A</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipising elit, sed do
+              eiusmod tempor
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- productpage -->
+<div class="productpage" id="product">
+  <div class="nav_more">
+    <div class="menu_more"><img class="btn_menu" id="pointer" src="/plugin/images/images2/icons/btn_menu.svg" alt=""></div>
+    <div class="logo_more"><img src="/plugin/images/images2/icons/full_logo.svg" alt="" width="150px"></div>
+    <div class="contact_more"><a id="contact" href=""><img src="/plugin/images/images2/icons/Insta.svg" alt=""></a><a id="contact" href=""><img src="/plugin/images/images2/icons/Fb.svg" alt=""></a><a id="contact" href=""><img src="/plugin/images/images2/icons/Twiter.svg" alt=""></a><a id="contact" href=""><img src="/plugin/images/images2/icons/Pintrest.svg" alt=""></a></div>
+  </div>
+  <div class="body_product">
+    <div class="content_product"><img src="/plugin/images/icons/1024px-Zara_Logo 5.svg" alt="" width="45%">
+      <h4>D&#x1ECB;ch v&#x1EE5; ZARA</h4>
+      <div class="content_icon"><img class="icon_content" src="/plugin/images/icons/icon_content_more.svg" alt="" height="40px">
+        <p class="content_content">
+          Tr&#x1EDF; th&agrave;nh KOL &dstrok;&#x1EC3; l&agrave;m vi&#x1EC7;c v&#x1EDB;i Th&#x1B0;&#x1A1;ng hi&#x1EC7;u y&ecirc;u th&iacute;chThe beauty of
+          astronomy is that anybody can do it. From the tiniest baby to the most
+          advanced astrophysicist, there is something for anyone who wants to
+          enjoy astronomy.
+        </p>
+      </div>
+      <button class="btn_product" id="pointer"><img src="/plugin/images/icons/icon__btn.svg" alt="">
+        <p>VIEW MORE</p>
+      </button>
+    </div>
+    <div class="slide_product" id="slide_product">
+
+      <div class="list" id="list">
+        <div class="slide slide1"><img src="/plugin/images/images2/img1_product.jfif" alt=""  draggable="false"></div>
+        <div class="slide slide2"><img src="/plugin/images/images2/img1.png" alt="" draggable="false"></div>
+        <div class="slide slide3"><img src="/plugin/images/images2/img3_product.jfif" alt="" draggable="false"></div>
+        <div class="slide slide1"><img src="/plugin/images/images2/img2.jfif " alt="" draggable="false"></div>
+        <div class="slide slide2"><img src="/plugin/images/images2/img2_product.jfif" alt="" draggable="false"></div>
+        <div class="slide slide3"><img src="/plugin/images/images2/img3_product.jfif" alt="" draggable="false"></div>
+      </div>
+    </div>
+
+    <div class="btn_pre_product" id="btn_pre_product">
+      <img src="/plugin/images/images2/icons/btn_pre_product.png" alt="" width="55px">
+    </div>
+
+    <div class="btn_next_product" id="btn_next_product">
+      <img src="/plugin/images/images2/icons/btn_next_product.png" alt=""  width="55px">
+    </div>
+
+    <!-- <div class="btn_slide">
+      <div class="btn_slide-a">
+       <img id="pointer" src="/plugin/images/icons/bnt_slide.png" alt="" width="25px">
+      </div> 
+      <div class="btn_slide-a">
+        <img id="pointer" src="/plugin/images/icons/btn_slide1.svg" alt="" width="10px">
+      </div>
+
+      <div class="btn_slide-a">
+       <img id="pointer" src="/plugin/images/icons/btn_slide1.svg" alt="" width="10px">
+      </div> 
+
+      <div class="btn_slide-a">
+        <img id="pointer" src="/plugin/images/icons/btn_slide1.svg" alt="" width="10px">
+      </div> 
+      <div class="btn_slide-a">
+        <img id="pointer" src="/plugin/images/icons/btn_slide1.svg" alt="" width="10px">
+      </div> 
+    </div> -->
+
+  </div>
+  <div class="slide_content" id="slide_content">
+    <marquee  direction="left">
+      <p>
+        *hot KOL * hot brandname * hot summer * event * business *education * top list *
+        Profesition
+      </p>
+    </marquee>
+
+  </div>
+</div>
+
+<!-- projectpage -->
+<div class="projectpage" id="project">
+  <div class="title">
+    <h1>Th&ocirc;ng tin d&#x1EF1; &aacute;n</h1>
+    <p>
+      The beauty of astronomy is that anybody can do it. From the tiniest baby to the
+      most advanced astrophysicist, there is something for anyone who wants to enjoy
+      astronomy.
+    </p>
+  </div>
+  <div class="cards">
+    <div class="col-1">
+      <div class="card1">
+        <h4>Visense</h4><img src="/plugin/images/images2/img1_project.png" alt="">
+      </div>
+      <div class="card1 card1-b"></div>
+    </div>
+    <div class="col-2">
+      <div class="card2">
+        <h4>HYPPOS</h4><img src="/plugin/images/images2/img2_pro.png" alt="">
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card3">
+        <h4>Misthy&apos;s Virtual world</h4><img src="/plugin/images/images2/img3_pro.png" alt="">
+      </div>
+      <div class="card1">
+        <h4>Visense</h4><img src="/plugin/images/images2/img1_project.png" alt="">
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card4">
+        <h4>Visense</h4>
+      </div>
+      <div class="card4 card4-b"></div>
+    </div>
+    <div class="col-5">
+      <div class="card5"></div>
+      <div class="card5 card5-b">
+        <h4>Misthy&apos;s Virtual world</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ft page -->
+<div class="footer" id="ft">
+  <div class="donors"><img id="pointer" src="/plugin/images/icons/Donors.svg" alt="" width="100%"></div>
+  <div class="content_footer">
+    <div class="content">
+      <div class="col0">
+        <div class="title_ft"><img src="/plugin/images/icons/icon_content0.svg" alt="">
+          <h3 id="pointer">BOOKING KOL</h3><img src="/plugin/images/icons/icon_content0.svg" alt="">
+        </div>
+        <div class="contact_ft"><img id="pointer" src="/plugin/images/icons/fb_ft.svg" alt=""><img id="pointer" src="/plugin/images/icons/tw_ft.svg" alt=""><img id="pointer" src="/plugin/images/icons/in_ft.svg" alt=""><img id="pointer" src="/plugin/images/icons/igram_ft.svg" alt=""></div>
+        <p>
+          One stop shop for top-quality rental solutions that meet your needs and
+          exceed your expectations.
+        </p>
+      </div>
+      <div class="col1">
+        <h5>CATALOG</h5>
+        <p>Kpop</p>
+        <p>Education</p>
+        <p>Events</p>
+        <p>HOT</p>
+      </div>
+      <div class="col2">
+        <h5>ABOUT US</h5>
+        <p>Our Partners</p>
+        <p>FAQ</p>
+        <p>About Us</p>
+        <p>Terms &amp; Conditions</p>
+      </div>
+      <div class="col3">
+        <h5>CUSTOMER</h5>
+        <p>Contact Us</p>
+        <p>Track Your Order</p>
+        <p>Product Care &amp; Repair</p>
+        <p>More information</p>
+      </div>
+    </div><a href="#"><img class="bt_ft" src="/plugin/images/bottom-footer.png" alt=""></a>
+  </div>
+</div>
+<script src="/plugin/js/base.js"></script>
+<script src="/plugin/js/slide.js"></script>
+<script src="/plugin/js/app.js"></script>
+<script src="/plugin/js/modals.js"></script>
+<script src="/plugin/js/server.js"></script>
+<!-- js form validation -->
+<script>
+  Validator({
+    form: "#form-1",
+    errorSelector: ".form-message",
+    rules: [
+      Validator.isRequired("#fullname_signUp"),
+      Validator.isEmail("#email_signUp"),
+      Validator.minLength("#password_signUp", 6),
+    ],
+  });
+  Validator({
+    form: "#form-2",
+    errorSelector: ".form-message",
+    rules: [
+      Validator.isEmail("#email"),
+      Validator.minLength("#password", 6),
+    ],
+  });
+</script>
+
+</body>
+</html>

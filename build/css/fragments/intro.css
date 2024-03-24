@@ -1,0 +1,167 @@
+/* selection */
+/* iPad */
+/* iPhone 16 pro max */
+.layout {
+  padding: 0;
+  margin: auto 0;
+  box-sizing: border-box;
+  background-color: #02021e;
+  height: 1100px;
+  max-width: 100%; }
+  .layout .title-selection h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    padding-top: 33px;
+    color: var(--primary-color);
+    font-family: 'Montserrat'; }
+  .layout .content {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 71px; }
+
+.content .card {
+  width: 350px;
+  background-color: var(--white-color);
+  height: 800px;
+  border-radius: 10px; }
+
+.card .content-card1 {
+  width: 325px;
+  padding-left: 24px;
+  padding-top: 95px;
+  color: var(--primary-color); }
+
+.card .content-card2 {
+  width: 325px;
+  padding-left: 30px;
+  padding-top: 61px;
+  color: #000000; }
+
+.card .content-card3 {
+  padding-top: 44px;
+  padding-right: 45px;
+  color: #e13f4a;
+  align-items: top;
+  text-align: right; }
+
+.card h2 {
+  font-family: 'Montserrat';
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 0; }
+
+.card p {
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
+.card .img-layout1 {
+  margin-top: 28px;
+  width: 100%;
+  height: 555px; }
+
+.card .img-layout2 {
+  margin-top: 70px;
+  width: 100%;
+  height: 597px; }
+
+.card .img-layout3 {
+  margin-right: 19px;
+  display: flex;
+  justify-content: right;
+  margin-left: 19px;
+  padding-bottom: 50px;
+  border-bottom: solid 2px black; }
+
+.card.card1 {
+  background-image: linear-gradient(var(--background_card-color), #ddeaf2); }
+
+.card.card2 {
+  margin-left: 55px;
+  margin-right: 55px;
+  background-color: var(--background_card-color); }
+  .card.card2 h2 {
+    margin-bottom: 13px; }
+
+.card.card3 {
+  height: 609px;
+  margin-top: -1px; }
+
+.img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 0 10px 10px; }
+
+.img2 {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px; }
+
+.btn-layout {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 83%;
+  cursor: pointer; }
+
+.img-btn {
+  justify-content: center;
+  align-items: center; }
+
+@media (max-width: 821px) {
+  .layout {
+    height: 2700px; }
+  .title-selection {
+    width: 70%;
+    margin: auto; }
+  .content {
+    max-width: 50%;
+    flex-wrap: wrap;
+    margin-left: 200px; }
+  .card {
+    margin-bottom: 50px; }
+  .card.card2 {
+    min-width: 350px; } }
+
+@media (max-width: 391px) {
+  .layout {
+    max-width: 100%;
+    height: 2700px; }
+  .title-selection {
+    margin: 0;
+    min-width: 400px; }
+  .content {
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    flex-wrap: wrap;
+    margin: auto; }
+  .card {
+    margin-bottom: 50px;
+    min-width: 300px; }
+    .card h2 {
+      font-size: 55px; }
+    .card .content-card3 {
+      padding-right: 10px; }
+    .card .img-layout3 {
+      margin-top: 50px; }
+  .card.card.card2 {
+    min-width: 300px;
+    margin-bottom: 70px; }
+  .content-card1 {
+    max-width: 90%; }
+  .content-card2 {
+    max-width: 90%; }
+  .content-card3 {
+    max-width: 90%; } }

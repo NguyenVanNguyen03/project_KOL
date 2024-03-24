@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "username": "Nguyen",
+      "email": "nguyen@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "Van",
+      "email": "van@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "username": "Văn Nguyên",
+      "email": "nguyen3@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}

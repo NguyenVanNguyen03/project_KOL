@@ -1,0 +1,33 @@
+:root {
+    --background_card-color: #efece8;
+    --primary-color: #dd7d3c;
+    --text-color: #585757;
+    --white-color: #ffffff;
+}
+* {
+    box-sizing: inherit;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    list-style: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1938px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pointer {
+    cursor: pointer;
+}
